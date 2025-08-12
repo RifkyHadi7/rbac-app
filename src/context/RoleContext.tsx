@@ -13,7 +13,6 @@ const RoleContext = createContext<RoleContextType | undefined>(undefined);
 export const RoleProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [role, setRoleState] = useState<Role | null>(null);
 
-  // Load role saat pertama kali di browser
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {

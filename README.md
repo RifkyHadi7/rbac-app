@@ -12,7 +12,7 @@ The app allows users to log in as different roles (Admin, Editor, Viewer) and ac
   - `Editor` — Add, Edit, View
   - `Viewer` — View only
 - **Dashboard**:
-  - Fetch data from [RESTful API](https://restful-api.dev/)
+  - Fetch data from [RESTful API](https://restful-api.dev/) *note: stock data from this api cannot be edited or delete
   - Show/hide action buttons based on role
   - Add/Edit/Delete items (changes handled locally, API calls are for demonstration)
 - **Error & Success Notifications** with auto-dismiss
@@ -70,7 +70,7 @@ The app allows users to log in as different roles (Admin, Editor, Viewer) and ac
     | Role   | Add | Edit | Delete | View |
     | ------ | --- | ---- | ------ | ---- |
     | Admin  | ✅   | ✅    | ✅      | ✅    |
-    | Editor | ✅   | ✅    | ❌      | ✅    |
+    | Editor | ❌   | ✅    | ✅      | ✅    |
     | Viewer | ❌   | ❌    | ❌      | ✅    |
 
 
