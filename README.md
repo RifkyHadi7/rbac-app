@@ -22,8 +22,6 @@ The app allows users to log in as different roles (Admin, Editor, Viewer) and ac
 
 ## 📸 Screenshots
 
-*(Add your screenshots here — e.g., login page, dashboard with different roles)*
-
 ---
 ![Login](image.png)
 ![Dashboard](image-1.png)
