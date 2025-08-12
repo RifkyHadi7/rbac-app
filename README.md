@@ -42,8 +42,8 @@ The app allows users to log in as different roles (Admin, Editor, Viewer) and ac
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/username/rbac-dashboard.git
-   cd rbac-dashboard
+   git clone https://github.com/RifkyHadi7/rbac-app.git
+   cd rbac-app
 2. **Install dependencies**
    ```bash
    npm install
